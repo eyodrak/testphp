@@ -14,7 +14,7 @@ $videos = array(
 $first = $videos[0];
 
 // YouTube API key (replace with your own valid key)
-$apiKey = 'AIzaSyB66gjpf8oEsef0Nzn25JzIHs-46YjzMp0';
+$apiKey = '';
 
 // Function to fetch video details
 function getVideoDetails($id, $apiKey){
@@ -138,3 +138,4 @@ foreach($videos as $vid){
   </script>
 </body>
 </html>
+
