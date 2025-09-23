@@ -7,9 +7,7 @@ $videos = array(
     'bw_KPw4TuRE',
     '2IHWltMHSTc',
     'alRJ5j3-WhI',
-    '05yL4RzE_TE',
-    'BP2QU7H8D1k',
-    'zlz9xEOK4W8'
+    '05yL4RzE_TE'
 );
 $first = $videos[0];
 
@@ -104,6 +102,10 @@ foreach($videos as $vid){
         <?php endforeach; ?>
       </div>
     </div>
+	<center>
+	Copyright &copy; 2025 All Rights Reserved.
+	Contact : <a href="mailto:ceo@yodrak.com">ceo@yodrak.com</a>
+	</center>
   </div>
 
   <script>
@@ -138,4 +140,5 @@ foreach($videos as $vid){
   </script>
 </body>
 </html>
+
 
