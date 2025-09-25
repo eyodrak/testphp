@@ -91,7 +91,12 @@ foreach($videos as $vid){
       <div class="thumbnails" id="thumbs">
         <?php foreach($videos as $vid):
             $thumb = "https://img.youtube.com/vi/".$vid."/hqdefault.jpg";
-            $title = htmlspecialchars($details[$vid]['title']);
+            //$title = htmlspecialchars($details[$vid]['title']);
+			if ($vid = 'pENCMMXZR34') { $title = 'Newcastle United - Singapore Tour 2025 Match Day VLOG';}
+			elseif ($vid = '05yL4RzE_TE') { $title = 'แก้ปัญหา ไฟน้ำแข็งเต็ม ติดและเครื่องทำน้ำแข็งไม่ทำงาน!! [Hicon]';}
+			elseif ($vid = 'bw_KPw4TuRE') { $title = 'Short Review EP.1 รีวิวร้าน Bread Street by GORDON RAMSAY!! ชิม Beef Wellington ของแทร่!!';}
+			elseif ($vid = '2IHWltMHSTc') { $title = 'Camping EP.2 มาลองเดอร์ลา กางเต๊นท์ เล่นน้ำ นครนายกกกกก';}
+			elseif ($vid = 'alRJ5j3-WhI') { $title = '1st Time Camping at Bangkok Backyard (JAN 2022)';}
         ?>
           <div class="thumb" data-id="<?php echo $vid; ?>" data-title="<?php echo htmlspecialchars($title, ENT_QUOTES); ?>">
             <img src="<?php echo $thumb; ?>" alt="thumb">
@@ -140,6 +145,7 @@ foreach($videos as $vid){
   </script>
 </body>
 </html>
+
 
 
 
