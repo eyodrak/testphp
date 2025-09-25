@@ -84,7 +84,7 @@ foreach($videos as $vid){
       <div class="player">
         <iframe id="player" src="https://www.youtube.com/embed/<?php echo $first; ?>" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="meta">
-          <div id="titleText">Now playing: <?php echo htmlspecialchars($details[$first]['title']); ?></div>
+          <div id="titleText">Now playing: <?php echo 'Newcastle United - Singapore Tour 2025 Match Day VLOG'; ?></div>
         </div>
       </div>
 
@@ -140,5 +140,6 @@ foreach($videos as $vid){
   </script>
 </body>
 </html>
+
 
 
